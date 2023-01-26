@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(135deg, #e2b0ff 10%, #9f44d3 100%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  max-height: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container__title {
+  text-shadow: 5px 5px 0px rgb(240, 46, 170);
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.container__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 350px;
+  height: 70px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.container__box--input {
+  outline: none;
+  border: 0;
+  width: 60%;
+}
+.container__box--button {
+  border: none;
+  background-color: rgb(240, 46, 170);
+  color: white;
+  padding: 10px 12px;
+  font-size: 12px;
+  width: 20%;
+}
+.container__box--button:hover {
+  background-color: rgb(147, 19, 100);
+}
+.container__list--output {
+  list-style: none;
+}
+
+.container-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 350px;
+  height: 70px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.container-list__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  list-style: none;
+}
+.container-list__form--tarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container-list .button-pencil {
+  color: white;
+  background-color: #bde998;
+  border: none;
+  font-size: 10px;
+  text-align: center;
+  height: 20px;
+}
+.container-list .button-erase {
+  color: white;
+  background-color: #953bfb;
+  border: none;
+  font-size: 10px;
+  text-align: center;
+  height: 20px;
+}/*# sourceMappingURL=styles.css.map */
