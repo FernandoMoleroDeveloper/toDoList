@@ -23,20 +23,22 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    outline: none;
     width: 350px;
     height: 70px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+    box-shadow: rgba(148, 148, 148, 0.4) 5px 5px,
       rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
       rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   }
 
-  &__box--input {
+  &__box-input {
     outline: none;
-    border: 0;
+    border: none;
     width: 60%;
+    font-size: 20px;
   }
 
-  &__box--button {
+  &__box-button {
     border: none;
     background-color: rgba(240, 46, 170);
     color: white;
@@ -45,13 +47,11 @@ body {
     width: 20%;
   }
 
-  &__box--button:hover {
+  &__box-button:hover {
     background-color: rgb(147, 19, 100);
   }
 
-  &__list--output {
-    list-style: none;
-  }
+  
 }
 .container-list {
   margin-top: 30px;
@@ -61,7 +61,7 @@ body {
   align-items: center;
   background-color: white;
   width: 350px;
-  height: 70px;
+ 
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
     rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
     rgba(240, 46, 170, 0.05) 25px 25px;
@@ -73,24 +73,26 @@ body {
     width: 300px;
     align-items: center;
     list-style: none;
+    border-bottom: 1px solid gray;
   }
-  &__form--tarea {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+ 
+  
+  &__form-text{
+    outline: none;
+    
+    width: 60%;
   }
-  .button-pencil {
+  &__form-pencil {
     color: white;
     background-color: #bde998;
     border: none;
     font-size: 10px;
     text-align: center;
     height: 20px;
+    margin-left: 70px;
   }
 
-  .button-erase {
+  &__form-erase {
     color: white;
     background-color: #953bfb;
     border: none;
